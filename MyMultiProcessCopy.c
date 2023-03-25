@@ -17,7 +17,6 @@ int main(int argc ,char **argv)
 	//源文件字节数
 	int fd1 = open(argv[1],O_RDWR);
 	int lSize = lseek(fd1,0,SEEK_END);
-	int SrcByteNum = lSize;
 	//确定进程数量
 	int ProcNum;
 	//无进程数量
