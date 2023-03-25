@@ -20,11 +20,6 @@ int main(int argc ,char **argv)
 	//确定进程数量
 	int ProcNum;
 	//无进程数量
-	if(argc == 3)
-	{
-		//默认为10
-		ProcNum = 10;
-	}
 	//有进程数量
 	else if(argc == 4)
 	{
