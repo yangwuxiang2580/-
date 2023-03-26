@@ -7,11 +7,7 @@
 #include<string.h>
 int main(int argc,char **argv)
 {
-	int fd1;
-	int fd2;
-	fd1 = open(argv[1],O_RDWR);
-	fd2 = open(argv[2],O_RDWR|O_CREAT,0664);
-	char buffer[8192] ;
+//修改
 	bzero(buffer,sizeof(buffer));
 	//确定是第几个进程
 	int Pro = atoi(argv[4]);
