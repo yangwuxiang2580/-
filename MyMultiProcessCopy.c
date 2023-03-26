@@ -4,8 +4,7 @@
 #include<string.h>
 #include<sys/types.h>
 #include<sys/stat.h>
-#include<fcntl.h>
-#include<sys/wait.h>
+//修改
 int main(int argc ,char **argv)
 {
 	//参数检测
