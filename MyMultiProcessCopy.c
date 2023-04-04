@@ -39,8 +39,7 @@ int main(int argc ,char **argv)
 		ProcNum = ProcNum/2;
 	}
 	//todo
-	char str1[6];
-	char str2[6];
+///修改
 	bzero(str1,sizeof(str1));
 	bzero(str2,sizeof(str2));
 	sprintf(str1,"%d",ProcNum);
