@@ -7,12 +7,7 @@
 //修改
 int main(int argc ,char **argv)
 {
-	//参数检测
-	if(argc < 3||argc > 4)
-	{
-		printf("参数异常！！！\n");
-		exit(0);
-	}
+//xiugaiguode
 	//源文件字节数
 	int fd1 = open(argv[1],O_RDWR);
 	int lSize = lseek(fd1,0,SEEK_END);
