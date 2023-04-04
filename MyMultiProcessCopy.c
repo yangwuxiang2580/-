@@ -46,6 +46,7 @@ int main(int argc ,char **argv)
 	sprintf(str1,"%d",ProcNum);
 	pid_t pid;
 	int i;
+	int k;
 	//创建进程
 	for(i = 0;i < ProcNum;i++)
 	{
