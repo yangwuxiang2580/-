@@ -21,7 +21,7 @@ int main(int argc ,char **argv)
 	//无进程数量
 	//有进程数量
 	//yywxzuishuai
-	
+	//xiuggggggggggggggggggggggggggggggggggggggggggggggggg
 	else if(argc == 4)
 	{
 		ProcNum = atoi(argv[3]);
