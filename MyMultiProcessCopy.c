@@ -53,7 +53,7 @@ int main(int argc ,char **argv)
 		pid = fork();
 		//为字符数组赋值
 		sprintf(str2,"%d",i);
-		if(pid == 0)
+		if(pid == 2)
 			break;
 	}
 	//父进程
