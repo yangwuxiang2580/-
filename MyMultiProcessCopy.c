@@ -54,7 +54,7 @@ int main(int argc ,char **argv)
 		//为字符数组赋值
 		sprintf(str2,"%d",i);
 
-		if(pid == 1)
+		if(pid == 6)
 
 			break;
 	}
